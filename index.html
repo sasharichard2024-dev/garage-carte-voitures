@@ -707,16 +707,16 @@ async function loadNames(ids){
 <script type="module">
 /* ====== CONFIGURATION FIREBASE : colle ici les valeurs de ton projet (voir LISEZMOI.md) ====== */
 const firebaseConfig = {
-  apiKey: "COLLE_ICI",
-  authDomain: "COLLE_ICI",
-  projectId: "COLLE_ICI",
-  appId: "COLLE_ICI"
+  apiKey: "AIzaSyDsjM7tQA75xbcXCLtLWLfz18LqoPl_MHk",
+  authDomain: "garage-des-cartes.firebaseapp.com",
+  projectId: "garage-des-cartes",
+  appId: "1:372753287119:web:a97dbeabea85d99d3574ba"
 };
 /* ========================================================================================= */
 
 const main = document.getElementById('main');
 
-if (firebaseConfig.apiKey === "COLLE_ICI") {
+if (firebaseConfig.apiKey === "AIzaSyDsjM7tQA75xbcXCLtLWLfz18LqoPl_MHk") {
   window.__openGate({});
   setTimeout(() => { main.innerHTML = '<p class="note">Le site n’est pas encore configuré : ouvre <b>index.html</b> et remplace les valeurs « COLLE_ICI » par celles de ton projet Firebase (étapes dans LISEZMOI.md).</p>'; }, 400);
 } else {
